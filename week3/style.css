@@ -1,0 +1,110 @@
+/* Unicersal Selector */
+
+* {
+  color: red;
+  font-family: "Raleway", sans-serif;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* Element Selector */
+
+h1 {
+  color: rgb(0, 0, 255);
+  font-style: oblique;
+  font-size: 3rem;
+}
+
+h2 {
+  color: #800080;
+}
+
+h3 {
+  color: blueviolet;
+}
+
+li {
+  color: palegreen;
+}
+
+p {
+  color: burlywood;
+}
+
+section {
+  text-align: end;
+  border: 7px ridge green;
+}
+
+/* Class Selector . */
+
+.blue-color {
+  color: orange;
+}
+
+/* id selector # */
+
+#outcome {
+  color: rgb(173, 124, 136);
+  border: 3px dotted rebeccapurple;
+}
+
+/* Attribute Selector */
+body {
+  background-color: rgb(16, 24, 46);
+}
+
+/* 
+curly braces {} - grouping
+square brackets [] - js
+sound brackets () - js
+paranthesis <> - html
+semicolon ; - to end a line 
+colon : - property declaration
+sntax : rules of a lang
+hyphen - to connect words 
+backslash /
+forwardslash \
+dot .
+hash #
+ */
+
+/* 
+ CSS Size Units 
+ Pixel: px
+ REM: rem
+ Percentage: %
+ Viewpoint units: vw, vh
+ */
+
+/* 
+ Key Properties 
+ font-family: ;
+ color: ;
+ font-size: ; 
+ lint-height: ; 
+ text-align: ;
+ text-transform: ;
+ font-weight: ;
+ */
+
+/* 
+ Key points 
+ 1. Browser Defult= 16px = 1 rem
+ 2. Don't rely on one font -> add fallback fonts = font stack
+ 3. rem will scale on users prefence 
+ */
+
+/* 
+CSS Color Properties 
+color: ;
+background: ; 
+border-color: ; 
+border: ;
+RGB: rgb(255, 99, 71) 
+Hex: #ff6347 
+Named colors: red 
+HSL: hsl( 9, 100%, 64%
+OKLCH: oklch( 69.62% 0.195 32.32)
+ */
