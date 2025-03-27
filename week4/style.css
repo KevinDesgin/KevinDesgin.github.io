@@ -1,0 +1,70 @@
+body {
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+p {
+  width: 270px;
+  border: 0.7px solid cyan;
+  border-left: 5px dotted green;
+  min-height: 200px;
+  padding: 1rem;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background-color: aquamarine;
+}
+
+span {
+  color: blueviolet;
+}
+
+/* 
+Padding - Defines space bwterrn the edge of box and content within
+padding: top right bottom left;
+*/
+
+/*
+Margin - Defines space between element and it's neighbors
+margin: top right bottom left 
+margin: 0 auto; = horizontal center
+ */
+
+/* 
+ vertical centering
+ line-height: ...px;
+  */
+
+/* 
+  max character limit on paragraph = 75 charaters 
+  max-width: 75ch;
+  */
+
+/* 
+Border
+border-width
+border-style
+border-color
+*/
+
+/* 
+display 
+display: block;
+<div><h1><p><header>
+display: inline;
+<span><a><img><unput>
+*/
+
+/* 
+display: inline-block,none
+*/
+
+/* 
+flex and gird 
+display: flex;
+displa: grid
+*/
