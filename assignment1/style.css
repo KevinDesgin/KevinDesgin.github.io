@@ -1,0 +1,78 @@
+body {
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(0, 95, 201, 255),
+    rgba(156, 194, 239, 255)
+  );
+  color: rgb(255, 255, 255);
+  font-size: 1.25rem;
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400rem;
+  font-style: normal;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+#grid-container {
+  border: 5rem thick #f0f0da56;
+  width: 45rem;
+  padding: 2.5rem;
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(13, 1fr);
+  margin: auto;
+}
+
+#box1 {
+  background-color: rgb(32, 111, 170);
+  grid-column: 1/3;
+}
+#box2 {
+  background-color: rgba(232, 74, 65, 255);
+  grid-column: 1/3;
+}
+#box3 {
+  background-color: rgba(7, 179, 183, 255);
+}
+#box4 {
+  background-color: #fdc52c;
+}
+#box5 {
+  background-color: #c2c399;
+  grid-column: 1/3;
+}
+#box6 {
+  background-color: #d74f8f;
+}
+
+#box7 {
+  background-color: rgb(32, 111, 170);
+}
+#box8 {
+  background-color: rgba(232, 74, 65, 255);
+}
+#box9 {
+  background-color: rgba(7, 179, 183, 255);
+}
+#box10 {
+  background-color: #fdc52c;
+}
+
+#box11 {
+  background-color: #c2c399;
+}
+#box12 {
+  background-color: #d74f8f;
+}
+
+#box13 {
+  background-color: rgb(32, 111, 170);
+}
