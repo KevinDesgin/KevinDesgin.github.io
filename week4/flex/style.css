@@ -21,11 +21,11 @@ body {
   min-height: 100px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  /* justify-content: space-around;
   align-items: center;
-  flex-direction: row-reverse;
+  flex-direction: ;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 10px; */
 }
 
 .limebox {
