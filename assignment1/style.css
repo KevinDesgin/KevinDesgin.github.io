@@ -19,6 +19,12 @@ h1 {
   font-weight: 400rem;
   font-style: normal;
   text-align: center;
+  border: inset;
+  width: 35rem;
+  border-radius: 35px;
+  margin: auto;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
 }
 
 h2 {
@@ -27,16 +33,26 @@ h2 {
   font-weight: 400rem;
   font-style: normal;
   text-align: center;
+  border: inset;
+  border-radius: 35px;
+  width: 35rem;
+  margin: auto;
+  margin-bottom: 1rem;
 }
 
 #grid-container {
-  border: 5rem thick #f0f0da56;
+  border: 0.5rem inset #ffffffcb;
+  border-radius: 25px;
   width: 45rem;
   display: grid;
   gap: 0.5rem;
   grid-template-rows: repeat(1, 1fr);
   margin: auto;
+  padding: 0.5rem;
 }
+/* 
+I chosed to use gridbox mainly to easily resize and position each element. 
+*/
 
 ul {
   list-style: none;
@@ -44,69 +60,87 @@ ul {
 
 #box1 {
   background-color: rgb(32, 111, 170);
+  border-radius: 35px;
   grid-column: 1/5;
   padding: 1rem;
 }
 #box2 {
   background-color: rgba(232, 74, 65, 255);
+  border-radius: 35px;
   grid-column: 1/5;
   padding: 1rem;
 }
 #box3 {
   background-color: rgba(7, 179, 183, 255);
+  border-radius: 35px;
   grid-column: 1/3;
   padding: 1rem;
 }
 #box4 {
   background-color: #fdc52c;
+  border-radius: 35px;
   grid-column: 3/5;
   padding: 1rem;
 }
 #box5 {
   background-color: #c2c399;
+  border-radius: 35px;
   grid-column: 1/5;
   padding: 1rem;
 }
 #box6 {
   background-color: #d74f8f;
+  border-radius: 35px;
   grid-column: 1/3;
   padding: 1rem;
 }
 
 #box7 {
   background-color: rgb(32, 111, 170);
+  border-radius: 35px;
   grid-column: 3/5;
   padding: 1rem;
 }
 #box8 {
   background-color: rgba(232, 74, 65, 255);
+  border-radius: 35px;
   grid-column: 1/3;
   padding: 1rem;
 }
 #box9 {
   background-color: rgba(7, 179, 183, 255);
+  border-radius: 35px;
   grid-column: 3/5;
   padding: 1rem;
 }
 #box10 {
   background-color: #fdc52c;
+  border-radius: 35px;
   grid-column: 1/3;
   padding: 1rem;
 }
 
 #box11 {
   background-color: #c2c399;
+  border-radius: 35px;
   grid-column: 3/5;
   padding: 1rem;
 }
 #box12 {
   background-color: #d74f8f;
+  border-radius: 35px;
   grid-column: 1/3;
   padding: 1rem;
 }
 
 #box13 {
   background-color: rgb(32, 111, 170);
+  border-radius: 35px;
   grid-column: 3/5;
   padding: 1rem;
 }
+
+/* 
+I chose this set of color scheme since it is the colors used to advertise a specific 
+brand of watch from the official Richard Mille website. 
+*/
