@@ -78,3 +78,36 @@ let grade = 74;
 || or 
 ! not 
 */
+
+// // Function
+// let a = 20;
+// let b = 69;
+
+// function add(val1, val2) {
+//   let total = val1 + val2;
+//   console.log(total);
+//   return total;
+// }
+
+// let c = add(a, b);
+// console.log(c);
+// // console.log(total);
+// a = 40;
+// b = 14;
+// c = add(a, b);
+// c = add(33, 69);
+// // console.log(c);
+
+// function whatIsMyGrade(marks) {
+//   if (marks > 80) {
+//     return "HD";
+//   } else if (marks < 40) {
+//     return "Fail";
+//   } else {
+//     return "Pass";
+//   }
+// }
+
+// let score = 55;
+// let msg = whatIsMyGrade(score);
+// console.log(msg);

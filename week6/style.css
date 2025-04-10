@@ -1,0 +1,16 @@
+button {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+img {
+  display: block;
+  cursor: pointer;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.blue-color {
+}
