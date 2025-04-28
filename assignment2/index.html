@@ -1,0 +1,113 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- add the font family of your choice -->
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <h1>Media Player Website</h1>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+      <ul>
+        <!-- <li><a href="#">Home</a></li>
+        <li><a href="#">Videos</a></li>
+        <li><a href="#">Music</a></li>
+        <li><a href="#">Playlists</a></li> -->
+        <!-- Add or remove navigation items as needed -->
+      </ul>
+    </nav>
+
+    <!-- Main Content Section -->
+    <main class="container">
+      <!-- Media Player Section -->
+      <div class="media-player">
+        <video id="custom-video-player" controls>
+          <source
+            src="https://thelongesthumstore.sgp1.cdn.digitaloceanspaces.com/IM-2250/miac.mp4"
+            type="video/mp4"
+          />
+        </video>
+        <div class="custom-controls">
+          <button id="play-pause-btn" onclick="togglePlayPause()">
+            <img
+              id="play-pause-img"
+              src="png/play.png"
+              alt="Play Button"
+              width="25"
+              height="15"
+            />
+          </button>
+          <button id="sound-btn" onclick="toggleSound()">
+            <img
+              id="sound-img"
+              src="png/icons8-audio-64.png"
+              alt="Audio Button"
+              width="25"
+              height="15"
+            />
+          </button>
+          <button id="ff-btn" onclick="toggleFF()">
+            <img
+              id="ff-img"
+              src="png/icons8-fast-forward-64.png"
+              alt="FF Button"
+              width="25"
+              height="15"
+            />
+          </button>
+          <button id="rw-btn" onclick="toggleRW()">
+            <img
+              id="rw-img"
+              src="png/icons8-rewind-64.png"
+              alt="RW Button"
+              width="25"
+              height="15"
+            />
+          </button>
+          <button id="loop-btn" onclick="toggleLoop()">
+            <img
+              id="loop-img"
+              src="png/icons8-repeat-64.png"
+              alt="Repeat Button"
+              width="25"
+              height="15"
+            />
+          </button>
+          <div class="progress-bar">
+            <span id="progress-bar-fill"></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Additional Content Section -->
+      <section>
+        <h2>Additional Content</h2>
+        <p>This is where you can showcase any other relevant content.</p>
+        <!-- Add more content as needed -->
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+      <p>&copy; 2025 Media Player Website. All rights reserved.</p>
+      <a href="https://icons8.com/icon/44036/play">Play</a>,
+      <a href="https://icons8.com/icon/43643/pause">Pause</a>,
+      <a href="https://icons8.com/icon/44809/audio">Audio</a>,
+      <a href="https://icons8.com/icon/48321/mute">Mute</a>,
+      <a href="https://icons8.com/icon/48306/fast-forward">Fast Foward</a>,
+      <a href="https://icons8.com/icon/48341/rewind">Rewind</a>,
+      <a href="https://icons8.com/icon/48338/repeat">Repeat</a> and
+      <a href="https://icons8.com/icon/vpfjibi81YMv/replay">Replay</a>
+      icon by
+      <a href="https://icons8.com">Icons8</a>
+    </footer>
+  </body>
+</html>
