@@ -56,3 +56,12 @@ function toggleFF() {
 function toggleRW() {
   video.currentTime -= 15;
 }
+
+const subBtn = document.querySelector("#sub-btn");
+const subImg = document.querySelector("#sub-img");
+
+subBtn.addEventListener("click", handleClick);
+
+function handleClick() {
+  subImg.classList.toggle((subImg.src = "png/icons8-unsubscribe-48.png"));
+}
