@@ -10,7 +10,7 @@ const fastFowardBtn = document.querySelector("#ff-btn");
 const fastFowardImg = document.querySelector("#ff-img");
 const rewindBtn = document.querySelector("#rw-btn");
 const rewindImg = document.querySelector("#rw-img");
-// video.removeAttribute("controls");
+video.removeAttribute("controls");
 
 video.addEventListener("timeupdate", updateProgressBar);
 

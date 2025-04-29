@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Rubik+80s+Fade&family=Winky+Sans:ital,wght@0,300;1,300&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- Header Section -->
@@ -17,13 +23,15 @@
     <!-- Navigation Section -->
     <nav>
       <ul>
-        <!-- <li><a href="#">Home</a></li>
+        <li><a href="#">Home</a></li>
         <li><a href="#">Videos</a></li>
         <li><a href="#">Music</a></li>
-        <li><a href="#">Playlists</a></li> -->
+        <li><a href="#">Playlists</a></li>
         <!-- Add or remove navigation items as needed -->
       </ul>
     </nav>
+
+    <h1>MUSIC VIDEO</h1>
 
     <!-- Main Content Section -->
     <main class="container">
@@ -87,13 +95,34 @@
         </div>
       </div>
 
-      <!-- Additional Content Section -->
-      <section>
-        <h2>Additional Content</h2>
-        <p>This is where you can showcase any other relevant content.</p>
-        <!-- Add more content as needed -->
-      </section>
+      <div class="artist-bio">
+        <div id="first-row">
+          <p>Artist Name</p>
+          <button id="sub-btn" onclick="toggleSub()">
+            <img
+              id="sub-img"
+              src="png/icons8-subscribe-48.png"
+              alt="Sub Button"
+              width="100"
+              height="60"
+            />
+          </button>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis
+          excepturi enim provident aut minus magnam! Modi nam aspernatur iste.
+          Voluptates ipsum odio, adipisci minus amet aperiam fugit! Nesciunt,
+          quam.
+        </p>
+        <p>Songs from Artist</p>
+      </div>
     </main>
+    <!-- Additional Content Section -->
+    <section>
+      <h2>Additional Content</h2>
+
+      <!-- Add more content as needed -->
+    </section>
 
     <!-- Footer Section -->
     <footer>
@@ -104,7 +133,10 @@
       <a href="https://icons8.com/icon/48321/mute">Mute</a>,
       <a href="https://icons8.com/icon/48306/fast-forward">Fast Foward</a>,
       <a href="https://icons8.com/icon/48341/rewind">Rewind</a>,
-      <a href="https://icons8.com/icon/48338/repeat">Repeat</a> and
+      <a href="https://icons8.com/icon/48338/repeat">Repeat</a>,
+      <a href="https://icons8.com/icon/UIantjqyhxHB/subscription">Subscribe</a>,
+      <a href="https://icons8.com/icon/wTGrACdrjBv8/unsubscribe">Unsubsribe</a>
+      and
       <a href="https://icons8.com/icon/vpfjibi81YMv/replay">Replay</a>
       icon by
       <a href="https://icons8.com">Icons8</a>
