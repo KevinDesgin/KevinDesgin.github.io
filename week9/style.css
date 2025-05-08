@@ -1,0 +1,81 @@
+body {
+  background-color: #1a120b;
+  display: flex;
+  text-align: center;
+  margin: auto;
+  max-width: 1000px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #e5e5cb;
+  /* color: #3c2a21; */
+  font-size: 1.1rem;
+  gap: 1.5rem;
+}
+
+.outer {
+  border: 2px dashed #e5e5cb7a;
+  width: 400px;
+  min-height: 200px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  opacity: 1;
+  /* background-color: cornsilk; */
+  transition: opacity 0.5s ease, transform 0.5s ease, background-color 0.5s ease;
+}
+
+/*Hover Aniamtion */
+button {
+  padding: 10px 20px;
+  font-size: 3rem;
+  background-color: aqua;
+  border-radius: 100%;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.5s ease, scale 0.4s ease, rotate 0.4s ease;
+}
+
+button:hover {
+  background-color: rgb(0, 153, 255);
+  scale: 0.7;
+  rotate: -12.5deg;
+}
+
+input {
+  padding: 5px;
+  font-size: 1.5rem;
+  border-radius: 12px;
+  width: 8rem;
+  border: 6px solid blueviolet;
+  transition: border-color 0.5s linear, translate 0.3s linear;
+}
+
+input:hover {
+  border-color: rgb(101, 32, 165);
+  /* translate: -30px; */
+}
+
+#duck-icon {
+  cursor: pointer;
+  transition: fill 0.6s ease;
+}
+
+#duck-icon:hover {
+  fill: cornflowerblue;
+  /* scale: 0.9; */
+}
+
+#my-duck {
+  transition: scale 0.5s linear;
+}
+
+#my-duck:hover {
+  scale: 0.9;
+}
