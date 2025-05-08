@@ -1,3 +1,6 @@
+/* The overall style that I chose to do was to make the page match similarly to the video in terms of color design. Which for this case was to use colors
+ranging from purple to black. Of course that had to be part that are brighter since it is more visible to the users when the background is dark*/
+
 :root {
   --primary-bg-color: #25103af2;
   --text-color: #ffffff;
