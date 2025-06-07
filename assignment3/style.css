@@ -1,0 +1,9 @@
+body {
+  cursor: none;
+}
+.cursor {
+  width: 2rem;
+  height: 2rem;
+  background: blue;
+  position: absolute;
+}
