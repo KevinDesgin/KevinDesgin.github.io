@@ -9,7 +9,13 @@ let fillHeight = 0;
 const totalHeight = canvas.height;
 const animationSpeed = 1; // Adjust for desired speed
 
-function animateFill() {
+let rectX = 0;
+let rectY = 0;
+const rectWidth = canvas.width;
+const rectHeight = 30;
+const fallSpeed = 0.5;
+
+function play() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
 
   fillHeight += animationSpeed;
@@ -17,12 +23,59 @@ function animateFill() {
   ctx.fillStyle = endColor;
   ctx.fillRect(0, canvas.height - fillHeight, canvas.width, fillHeight);
 
+  ctx.fillStyle = "black";
+  ctx.fillRect(rectX, rectY, rectWidth, rectHeight);
+
+  rectY += fallSpeed;
+
   if (fillHeight < totalHeight) {
-    requestAnimationFrame(animateFill);
+    requestAnimationFrame(play);
   }
 }
 
-animateFill();
+play();
+
+// const startColor = "white";
+// const endColor = "blue";
+// let fillHeight = 0;
+// const totalHeight = canvas.height;
+// const animationSpeed = 1; // Adjust for desired speed
+
+// function animateFill() {
+//   ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+//   fillHeight += animationSpeed;
+
+//   ctx.fillStyle = endColor;
+//   ctx.fillRect(0, canvas.height - fillHeight, canvas.width, fillHeight);
+
+//   if (fillHeight < totalHeight) {
+//     requestAnimationFrame(animateFill);
+//   }
+// }
+
+// let rectX = 0;
+// let rectY = 0;
+// const rectWidth = canvas.width;
+// const rectHeight = 30;
+// const fallSpeed = 2;
+
+// function draw() {
+//   ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+//   ctx.fillStyle = 'black';
+//   ctx.fillRect(rectX, rectY, rectWidth, rectHeight);
+
+//   rectY += fallSpeed;
+
+//   if (rectY > canvas.height) {
+//     rectY = 0 - rectHeight;
+//   }
+//   requestAnimationFrame(draw);
+// }
+
+// draw();
+// animateFill();
 
 const cursor = document.querySelector(".cursor");
 document.addEventListener("mousemove", (event) => {
