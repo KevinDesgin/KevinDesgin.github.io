@@ -28,6 +28,7 @@ body {
   position: absolute;
 }
 
-button {
-  position: ;
+#play {
+  position: fixed;
+  margin-left: 350px;
 }
