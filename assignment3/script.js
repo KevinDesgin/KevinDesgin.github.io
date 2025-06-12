@@ -86,6 +86,8 @@ function clickPlay() {
 // for animation. However I was unable to link the javascript code to also affect the css animation. Which lead
 // to using the alternative method of using the canvas function to draw, animate and interact all in javascript.
 
+//  Another
+
 // If I was able to expand on this further on, I would love to incorporate a code that would create a simple small
 // maze as a way to expand the area of which the player are able to move around in. However that would require me
 // to learn the different maze tracing algorithm and generation.
@@ -93,3 +95,6 @@ function clickPlay() {
 // Another thing that I would like to expand on is whether I can to expand the height limits of the canvas as this
 // would allow me to create an infinite maze that would consistently go up. this might require me to learn how to
 // implement a hidden scroll that have some sort of interaction with the canvas.
+
+// Furthormore more, I would like to expand on other function to be implemented such as a ui menu that would offer
+// different gamemode selection and a setting ui that would allow users to ajust the game audio and video.
